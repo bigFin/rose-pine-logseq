@@ -13,9 +13,10 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Clone repo
+2. Enable developer settings in Logseq
+3. Install unpacked package
+4. Profit
 
 ## Gallery
 
@@ -23,25 +24,5 @@
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/bigFin)
+- [bigFin](https://github.com/bigFin)
 
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
