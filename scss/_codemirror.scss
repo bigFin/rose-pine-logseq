@@ -1,0 +1,29 @@
+@use "codemirror/src/codemirror" as codemirror;
+
+div.cm-s-solarized.CodeMirror {
+  @include codemirror.variables;
+}
+
+.cm-s-solarized {
+    &.cm-s-light, &.cm-s-dark {
+        @include codemirror.theme;
+        text-shadow: unset;
+        box-shadow: inset 7px 0 12px -6px var(--ctp-secondary-background-color);
+
+        &.CodeMirror, .CodeMirror-gutters {
+          background-color: var(--ctp-secondary-background-color);
+        }
+
+        .CodeMirror-linenumber {
+          text-shadow: unset;
+        }
+    }
+}
+
+.embed.embed-page .cm-s-solarized {
+  &.cm-s-dark, &.cm-s-light {
+    &.CodeMirror, .CodeMirror-gutters{
+      background-color: var(--ctp-tertiary-background-color);
+    }
+  }
+}

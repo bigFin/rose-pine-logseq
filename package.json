@@ -1,0 +1,41 @@
+{
+	"name": "logseq-rosepine",
+	"version": "0.1",
+	"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "sass --watch scss:.",
+		"build:rosepine": "sass scss/rosepine.scss rosepine.css --no-source-map",
+		"build": "sass scss:. --no-source-map",
+		"clean": "rimraf *.css*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bigfinsmall/rosepine-logseq.git"
+	},
+	"keywords": [],
+	"author": "Fin (bigfinsmall)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bigfinsmall/rosepine-logseq/issues"
+	},
+	"homepage": "https://github.com/bigfinsmall/rosepine-logseq#readme",
+	"devDependencies": {
+		"rimraf": "^3.0.2",
+		"sass": "^1.55.0"
+	},
+	"logseq": {
+		"themes": [
+			{
+				"name": "Rosepine",
+				"url": ".rosepine.css",
+				"description": "Rosepine",
+				"mode": "dark"
+			}
+		],
+		"title": "Rosepine",
+		"id": "logseq-rosepine",
+		"icon": "./assets/icon.png"
+	}
+}
