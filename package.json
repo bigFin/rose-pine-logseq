@@ -18,9 +18,9 @@
 	"author": "Fin (bigfinsmall)",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/bigfinsmall/rosepine-logseq/issues"
+		"url": "https://github.com/bigfin/rose-pine-logseq/issues"
 	},
-	"homepage": "https://github.com/bigfinsmall/rosepine-logseq#readme",
+	"homepage": "https://github.com/bigfin/rose-pine-logseq#readme",
 	"devDependencies": {
 		"rimraf": "^3.0.2",
 		"sass": "^1.55.0"
